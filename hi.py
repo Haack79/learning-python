@@ -186,3 +186,16 @@ my_set[
 colors = ["Red", "Green", "Blue", "Orange"]
 for color in colors:
     print(f"The color is: {color}")
+# Main Method in Python - if __name__ == "__main__": - if you run the file directly it will run the code in the if statement - if you import the file it will not run the code in the if statement
+# can use the pass keyword to do nothing
+# can run other code and import other files in the if statement
+# -m pip install -U pylint - install pylint
+# from random import randint - import randint from random module
+# Libraries and Modules in Python - import random - import random module - random.randint(1, 10) - random is the module and randint is the function
+# Modules in Python - import random - import random module - random.randint(1, 10) - random is the module and randint is the function
+# python has built in mondules like random and math and datetime and os and sys and json and csv and statistics and sqlite3 and tkinter and turtle and tkinter and tkint
+# can create your own modules by creating a file with a .py extension and importing it into another file - import my_module - my_module.my_function()
+# tests are usually in a tests folder and are named test_*.py - test_my_module.py - import my_module - my_module.my_function()
+# unit tests are important
+# to install package use pip
+# pypi.org  - python package index

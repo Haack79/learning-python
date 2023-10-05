@@ -173,3 +173,19 @@ use triple quotes
 # static methods - methods that are available on the class itself but don't have access to the class or instance
 # class attributes - attributes that are available on the class itself
 # class is a blueprint for creating instances of that class - class names are PascalCase
+# instance attributes - attributes that are available on the instance of the class - instance names are snake_case
+# __init__ - a method that is called when an instance of a class is created - it is the constructor for the class
+# self - a reference to the instance of the class - it is the first argument to any instance method
+# isinstanceof - a built-in function that takes an instance and a class and returns True if the instance is an instance of the class or a subclass of the class and False otherwise - isinstance(instance, Class)
+# issubclass - a built-in function that takes two classes and returns True if the first class is a subclass of the second class and False otherwise - issubclass(ChildClass, ParentClass)
+# inheritance - when a class inherits from another class - the child class gets all of the methods and attributes from the parent class
+# super - a function that allows you to call a method from the parent class - super().__init__()
+# dunder methods - methods that start and end with double underscores - __init__ is a dunder method
+# encapsulation - the idea that data should not be directly accessed outside of a class - use getters and setters to access and change data
+# getters and setters - methods that allow you to get and set data on an instance of a class
+# __repr__ - a dunder method that returns a string representation of an instance of a class - used for debugging
+# __str__ - a dunder method that returns a string representation of an instance of a class - used for displaying information to the user
+# __add__ - a dunder method that allows you to add two instances of a class together - used for operator overloading
+# __len__ - a dunder method that allows you to get the length of an instance of a class - used for operator overloading
+# inheritance is when a class inherits from another class and gets all of the methods and attributes from the parent class
+# super is a function that allows you to call a method from the parent class - super().__init__() - super() returns a proxy object that delegates method calls to a parent or sibling class

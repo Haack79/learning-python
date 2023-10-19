@@ -1,12 +1,12 @@
 # in file: hi.py
 
 greetings = ["Hello", "Bonjour", "Hola"]
-
+# can get info from user
+name = input("What is your name? ")
 for greeting in greetings:
     print(f"{greeting}, World!")
 
-name = "Nina"
-name
+print(f"Hello, {name}!")
 
 
 # dont use key words like list, int etc for naming variables

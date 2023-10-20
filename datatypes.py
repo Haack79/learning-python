@@ -53,3 +53,20 @@ print(
 # statements  iq = 150 is statement
 # augmented assignment operator - augmented assignment operators are used to perform an operation on a variable and then assign the result to the same variable - augmented assignment operators are used to perform an operation on a variable and then assign the result to the same variable
 # augmented assignment operator  iq += 10 is augmented assignment operator
+# dictionary dict
+# when to lose list or dictionary , depends on use, 
+# dictionary holds ton of info and doesn't keep order
+# .get is method for dictionaries, if try to get somethign that doesn't exist it returns None
+# .get can add default value .get(key, default value)
+# search dictionary  print('basket' in user) 
+# print(key in dictionary.keys()), print(value in dictionary.keys())
+# print (dictionary.items()) ; .clear() clears out object
+# .copy(); copy the object
+# pop(key) ,  update()
+# tuple predictable but not flexible
+#user.items prints it in tuples
+# tuple just has count and index()
+# set - has no duplicates 
+# set(my_list) = will get rid of all duplicates
+# .difference(), discard(), difference_update(), .intersection(), isdisjoint(), issubset(), 
+# issuperset(), .union()

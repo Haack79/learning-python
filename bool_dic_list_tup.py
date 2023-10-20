@@ -1,5 +1,5 @@
 bool
-
+# only 2 options 
 bool([])  # false
 
 bool(None)  # false

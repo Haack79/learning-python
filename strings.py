@@ -21,3 +21,6 @@ print(selfish[::-1])  # em em em - reverse string
 print(selfish[0:7])  # me me m
 print(selfish[::-1])  # em em em
 # immutability means strings cannot be changed, cant change value in string but can reassign it
+print('*' * 10) # *********
+# can do methods in fstrings
+print(f'{name} is {len(name)}')
